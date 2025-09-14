@@ -403,7 +403,7 @@ export default function GangaFoundationLandingPage() {
     </h3>
 
       <DropdownList data={data} />
-      <Footer company={company} />
+      <Footer company={company} /><></>
       
     </div>
   );
