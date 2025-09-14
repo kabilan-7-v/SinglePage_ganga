@@ -396,7 +396,7 @@ export default function GangaFoundationLandingPage() {
         CIN: {company.cin}
       </div>
       <CompanyInfo company={company} />
-      {/* <Slide /> */}
+      <Slide />
       <WhoWeAre />
     <h3 className="text-3xl font-bold mb-8 text-center text-indigo-700">
      Attachments
