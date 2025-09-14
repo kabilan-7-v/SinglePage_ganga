@@ -1,13 +1,12 @@
-import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import GangaFoundationLandingPage from './App';
+import GangaFoundationLandingPage from './GangaFoundationLandingPage';
 import Update from './Update';
 
 function RouterPage() {
   return (
     <Routes>
-      <Route path="/" element={<GangaFoundationLandingPage />} />
-      <Route path="/ganga" element={<Update />} />
+      <Route path="/ganga" element={<GangaFoundationLandingPage />} />
+      <Route path="/" element={<Update />} />
     </Routes>
   );
 }
