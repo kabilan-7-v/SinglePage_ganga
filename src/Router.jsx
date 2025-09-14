@@ -6,8 +6,8 @@ import Update from './Update'
 function Router() {
   return (
     <Routes>
-        <Route path="/ganga" element={<GangaFoundationLandingPage />} />
-        <Route path="/" element={<Update></Update>}/>
+        <Route path="/" element={<GangaFoundationLandingPage />} />
+        <Route path="/ganga" element={<Update></Update>}/>
       
       </Routes>
   )
