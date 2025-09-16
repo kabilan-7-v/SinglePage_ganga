@@ -4,7 +4,5 @@ import { BrowserRouter } from "react-router-dom";
 import Routerpage from './RouterPage';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
     <Routerpage />
-  </BrowserRouter>
 );
